@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GoogleImageFrontEnd</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <a href="" class="google"><img src="./img/GoogleLogo2.png" alt="Logo-Google"></a>
+        <nav>
+            <a href="index.html" class="google-button">Пошук Google</a>
+        </nav>
+    </header>
+    <div class="search">
+        <img src="./img/GoogleLogo.png" alt="search" class="imageofsearch">
+        <form action="https://www.google.com/search" class="search-form" method="get" target="_blank">
+            <input type="text" name="tbm" value="isch" hidden>
+            <input class="search-form__input" type="text" name="q">
+            <div class="search-form__betweenbuttons">
+                <input class="search-form__btn" type="submit" value="Пошук Google">
+                <input type="submit" value="Мені пощастить" class="search-form__btn" name="searchbut">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
